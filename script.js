@@ -1,0 +1,1 @@
+console.log("Flash Party Website Loaded");
