@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #090914;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6a00ff, #00c3ff);
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+button {
+  background: #00ff99;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #17172a;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 195, 255, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
